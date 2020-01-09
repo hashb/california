@@ -12,6 +12,8 @@ This is a theme inspired by my time in California. I use it for my personal
 website which you can see at https://chenna.me. Feel free use to use it and
 remix it as you wish.
 
+This is a fork of [mattvh](https://github.com/mattvh)/[solar-theme-jekyll](https://github.com/mattvh/solar-theme-jekyll)
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
@@ -53,6 +55,6 @@ To add a custom directory to your theme-gem, please edit the regexp in `californ
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open source under the terms of the GPL v2.
 
 Photo by [Robert Bye](https://unsplash.com/@robertbye) on Unsplash
