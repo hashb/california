@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "California theme for Jekyll."
   spec.homepage      = "https://chenna.me/california"
-  spec.license       = "MIT"
+  spec.license       = "GPL v2"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
