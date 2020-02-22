@@ -9,6 +9,10 @@ layout: default
 {% for post in site.posts %}
 {% unless post.next %}
 
+  {% if post.title contains "stardate" %}
+    {% continue %}
+  {% endif %}
+  
   {% unless forloop.first %}
     </div>
   </div>
