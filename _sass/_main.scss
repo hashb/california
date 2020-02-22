@@ -341,6 +341,20 @@ figcaption {
   float: right;
 }
 
+/*** TOC ***/
+
+ul.toc {
+  padding: 15px 15px 15px 25px;
+}
+
+ul.toc ul {
+  padding: 0 0 3px 25px;
+}
+
+.toc {
+  display: inline-block;
+  background-color: #FFFFF1;
+}
 
 
 /*** Media Queries ***/
