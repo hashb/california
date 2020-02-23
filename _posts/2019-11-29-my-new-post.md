@@ -2,6 +2,7 @@
 layout: post
 title: My New Post
 date: 2019-11-29 15:31 -0800
+tags: [first, post]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
