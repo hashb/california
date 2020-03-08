@@ -103,6 +103,11 @@ pre {
   overflow: auto;
 }
 
+pre.highlight {
+  margin: 0;
+  padding: 1em;
+}
+
 .code-wrap code {
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
