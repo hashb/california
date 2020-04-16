@@ -6,6 +6,25 @@ layout: default
 
 {{ content }}
 
+<h2>Pages</h2>
+
+<div class="archive-item">
+<ul>
+{% for p in site.pages %}
+    {% if p.tags contains 'page' %}
+        <li>
+          <p>
+            <a href="{{ p.url | absolute_url }}" title="{{ p.title }}">{{ p.title }}</a>
+          </p>
+        </li>
+    {% endif %}
+{% endfor %}
+</ul>
+</div>
+
+
+<h2>Posts</h2>
+
 {% for post in site.posts %}
 {% unless post.next %}
   
@@ -15,7 +34,7 @@ layout: default
   {% endunless %}
 
   <div class="archive-item">
-    <h2>{{ post.date | date: '%Y' }}</h2>
+    <h3>{{ post.date | date: '%Y' }}</h3>
     <div class="archive-month">
 
 {% else %}
@@ -33,7 +52,7 @@ layout: default
   {% endunless %}
 
   <div class="archive-item">
-    <h2>{{ post.date | date: '%Y' }}</h2>
+    <h3>{{ post.date | date: '%Y' }}</h3>
     <div class="archive-month">
 
 {% endif %}
