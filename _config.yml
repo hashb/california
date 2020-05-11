@@ -22,6 +22,8 @@ plugins:
   - jemoji
   - jekyll-feed
 
+author: Li'l Sebastian
+
 markdown: kramdown
 kramdown:
   input: GFM

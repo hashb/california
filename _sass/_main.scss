@@ -253,12 +253,18 @@ article ul {
   list-style: disc;
 }
 
-//article .meta {
-p.meta {
+div.post-footer p, div.post-footer address {
   padding-top: 20px;
   font-size: 0.85em;
   font-style: italic;
 }
+
+//article .meta {
+// p.meta {
+//   padding-top: 20px;
+//   font-size: 0.85em;
+//   font-style: italic;
+// }
 
 img.left {
   float: left;
