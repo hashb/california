@@ -14,7 +14,7 @@ layout: default
     {% if p.tags contains 'page' %}
         <li>
           <p>
-            <a href="{{ p.url | absolute_url }}" title="{{ p.excerpt | strip_html }}">{{ p.title }}</a>
+            <a href="{{ p.url | relative_url }}" title="{{ p.excerpt | strip_html }}">{{ p.title }}</a>
           </p>
         </li>
     {% endif %}
@@ -67,7 +67,7 @@ layout: default
   {% endif %}
     <p>
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d %b" }}</time>&nbsp;&nbsp;
-      <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title }}</a>&nbsp;
+      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a>&nbsp;
       {% if post.last_modified_at %}
       {% comment %}
       https://stackoverflow.com/questions/37340705/shopify-liquid-find-number-of-days-between-two-dates
