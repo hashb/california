@@ -14,7 +14,7 @@ layout: default
     {% if p.tags contains 'page' %}
         <li>
           <p>
-            <a href="{{ p.url | absolute_url }}" title="{{ p.excerpt }}">{{ p.title }}</a>
+            <a href="{{ p.url | absolute_url }}" title="{{ p.excerpt | strip_html }}">{{ p.title }}</a>
           </p>
         </li>
     {% endif %}
