@@ -13,6 +13,8 @@ remix it as you wish.
 
 This is a fork of [mattvh](https://github.com/mattvh)/[solar-theme-jekyll](https://github.com/mattvh/solar-theme-jekyll)
 
+Contains CSS from [danurbanowicz/eleventy-netlify-boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate)
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
